@@ -1,12 +1,12 @@
-import React from 'react';
+import { Button as ShadcnButton } from '@/components/ui/button';
 
 interface ButtonProps {
-  children: React.ReactNode;
+  label: string;
   onClick: () => void;
 }
 
-const Button = ({ children, onClick }: ButtonProps) => {
-  return <button onClick={onClick}>{children}</button>;
+const Button = ({ label, onClick }: ButtonProps) => {
+  return <ShadcnButton onClick={onClick}>{label}</ShadcnButton>;
 };
 
 export default Button;
