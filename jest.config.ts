@@ -12,6 +12,9 @@ const config: Config = {
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[tj]s?(x)'], // Test matching patterns
   resetMocks: true, // Optional: Resets all mocks before each test
   restoreMocks: true, // Optional: Restores mocks to their original implementation
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest', // Use ts-jest for TypeScript files
+  },
 };
 
 export default config;
