@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "my-custom-script": "linter --arg1 --arg2",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
@@ -26,8 +28,11 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
+    "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
