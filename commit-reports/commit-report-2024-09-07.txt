@@ -1,0 +1,16 @@
+Commits from branch :
+5164eb6 - Merge pull request #1 from Intradark/feature/base-routing (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/5164eb6
+1bd1e38 - feat(stats): add new stats route page (ajkfreak) - https://github.com/aj0urdain/Landmark/commit/1bd1e38
+540f45b - chore: removed custom button and subsequent test (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/540f45b
+a9a7bf1 - feat: created custom Button component on top of shadcn (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/a9a7bf1
+d015348 - feat: install shadcn button component (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/d015348
+d254c56 - feat: add base layout for login page (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/d254c56
+4f48c85 - feat: set up Supabase client for authentication and data access (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/4f48c85
+f31cee4 - test: add Button component test and configure Jest with Typescript (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/f31cee4
+4f0a9ac - chore: configure Jest for testing with coverage reports (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/4f0a9ac
+d34e855 - chore: install Jest and Testing Library dependencies (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/d34e855
+1b70f51 - chore: configure lint-staged for ESLint and Prettier (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/1b70f51
+f47cad4 - chore: configure Husky, Prettier, and ESLint settings (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/f47cad4
+770341b - chore: set up Husky for Git hooks (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/770341b
+f973065 - chore: initialize shadcn/ui design system (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/f973065
+8377ab7 - chore(structure): set up folder structure for atomic design (Aaron J. Girton) - https://github.com/aj0urdain/Landmark/commit/8377ab7
