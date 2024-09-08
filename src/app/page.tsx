@@ -16,14 +16,14 @@ export default function Home() {
 
       if (error) {
         console.error('Error checking user:', error);
-        router.push('/login');
+        router.push('/auth');
         return;
       }
 
       if (user) {
         router.push('/dashboard');
       } else {
-        router.push('/login');
+        router.push('/auth');
       }
     };
 
