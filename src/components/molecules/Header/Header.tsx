@@ -5,7 +5,7 @@ import { SearchInput } from '@/components/atoms/SearchInput/SearchInput';
 import { UserMenu } from '@/components/molecules/UserMenu/UserMenu';
 import { Sidebar } from '@/components/molecules/Sidebar/Sidebar';
 
-export function Header() {
+export function Header({}) {
   return (
     <header className='flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6'>
       <Sheet>
