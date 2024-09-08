@@ -1,3 +1,5 @@
+'use client';
+
 import { Header } from '@/components/molecules/Header/Header';
 import { Sidebar } from '@/components/molecules/Sidebar/Sidebar';
 
@@ -7,11 +9,13 @@ interface MainLayoutProps {
 
 export function MainLayout({ children }: MainLayoutProps) {
   return (
-    <div className='flex h-screen overflow-hidden'>
-      <Sidebar />
-      <div className='flex flex-col flex-1 overflow-hidden'>
+    <div className='grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]'>
+      <div className='hidden border-r bg-muted/40 md:block'>
+        <Sidebar />
+      </div>
+      <div className='flex flex-col h-screen'>
         <Header />
-        <main className='flex-1 overflow-y-auto p-4'>{children}</main>
+        <main className='flex-1 overflow-y-scroll'>{children}</main>
       </div>
     </div>
   );
