@@ -9,7 +9,7 @@ import { ThemeToggle } from '@/components/atoms/ThemeToggle/ThemeToggle';
 
 export function LoginForm() {
   return (
-    <div className='mx-auto grid w-[350px] gap-6'>
+    <div className='w-full max-w-md space-y-8'>
       <div className='flex justify-between items-center'>
         <PageTitle>Login</PageTitle>
         <ThemeToggle />
@@ -33,9 +33,6 @@ export function LoginForm() {
         />
         <Button type='submit' className='w-full'>
           Login
-        </Button>
-        <Button variant='outline' className='w-full'>
-          Login with Google
         </Button>
       </div>
       <div className='mt-4 text-center text-sm'>
